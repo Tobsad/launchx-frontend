@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <!--STYLES-->
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav-menu">
+        <a href="#"><img src="/images/logo-heladeria.png" alt="logo"></a>   <!--CAMBIAR POR OTRO LOGO-->
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#helados">Helados</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <div class="presentacion">
+        <div class="title">
+            <h1 class="main-tittle">
+                Coffee Anime
+            </h1>
+        </div>
+        <div class="description">
+            <p>"Disfruta de los mejores helados y cafes mirando tus animes favoritos."</p>
+        </div>
+    </div>
+    <section id="helados" class="primero">
+        <h2>Nuestros Helados mas pedidos</h2>
+        <div class="carta">
+            <div class="card">
+                <h3>Helado de Fresa</h3>
+                <img class="helado" src="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2020/03/helado-de-fresas-con-crema-y-leche-condensada.jpg" alt="Fresa">
+                <p><input type="checkbox" name="" id=""> 15 Soles</p>
+            </div>
+
+            <div class="card">
+                <h3>Helado de Vainilla</h3>
+                <img class="helado" src="https://www.elespectador.com/resizer/vbeTBefkudmQA2VWoyhdkoIRK1I=/525x350/filters:format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/BGL2O773X5EHXLNWURCUYKERV4.jpg" alt="Vainilla">
+                <p><input type="checkbox" name="" id=""> 15 Soles</p>
+            </div>
+
+            <div class="card">
+                <h3>Helado de Chocolate</h3>
+                <img class="helado" src="https://recetastips.com/wp-content/uploads/2020/05/helado-de-chocolate-6-1.jpg" alt="Chocolate">
+                <p><input type="checkbox" name="" id=""> 15 Soles</p>
+            </div>
+            
+            <div class="card">
+                <h3>Helado de Menta</h3>
+                <img class="helado" src="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2021/03/helado-de-chocolate-con-menta-receta-casera.jpg" alt="Menta">
+                <p><input type="checkbox" name="" id=""> 15 Soles</p>
+            </div>
+
+            <div class="card">
+                <h3>Helado de Mango</h3>
+                <img class="helado" src="https://i.blogs.es/6b8c1d/receta-de-helado-de-mango-facil/840_560.jpg" alt="Mango">
+                <p><input type="checkbox" name="" id=""> 15 Soles</p>
+            </div>
+
+            <div class="card">
+                <h3>Helado de Mora</h3>
+                <img class="helado" src="https://recetastips.com/wp-content/uploads/2020/08/Helado-de-Mora-Casero.jpg" alt="Mora">
+                <p><input type="checkbox" name="" id=""> 15 Soles</p>
+            </div>
+
+        </div>
+        </div>
+    </section>
+    <section id="contacto" class="segundo">
+        <h2>Realizamos el Servicio de Delivery con:</h2>
+        <div class="slider">
+            <ul>
+                <li><img class="item-slider" src="/assets/rappi.png" alt="Rappi"></li>
+                <li><img class="item-slider" src="/assets/pedidosya.png" alt="PedidosYa"></li>
+                <li><img class="item-slider" src="/assets/ubereats.png" alt="UberEats"></li>
+                <li><img class="item-slider" src="/assets/rappi.png" alt="Rappi"></li>
+                
+            </ul>
+        </div>
+    </section>
+    <section class="tercero">
+        <h2>Realiza tu pedido</h2>
+        <form class="form">
+            <fieldset class="fieldset">
+
+                <legend>Datos: </legend>
+
+                <label>Nombre y Apellidos: </label>
+                <br>
+
+                <input name='nombre' type='text'/>
+                <br>
+
+                <label>Teléfono: </label><br>
+
+                <input name='nombre' type='number'/>
+                <br>
+
+
+                <label>Helados a Comprar: </label>
+                <br>
+
+                <input type='checkbox' name='sabor' value='Fresa' /> Fresa
+                <input type='checkbox' name='sabor' value='Vainilla' /> Vainilla
+                <input type='checkbox' name='sabor' value='Chocolate' /> Chocolate
+                <input type='checkbox' name='sabor' value='Menta' /> Menta
+                <input type='checkbox' name='sabor' value='Mango' /> Mango
+                <input type='checkbox' name='sabor' value='Mora' /> Mora
+                <br>
+
+                <label>Email: </label> 
+                <br>
+
+                <input name='nombre' type='email'/>
+                <br>
+                
+                <label>Dirección: </label>
+                <br>
+
+                <input name='nomsaborbre' typt'/><br>
+                
+                <label>Descripción: </label> 
+                <br>
+                
+                <textarea name="textarea" rows="10" cols="100" placeholder="Describa como desea el pedido"></textarea>
+                <br>
+                <input type="submit" value="Enviar" />
+            </fieldset>  
+            
+        </form>
+    </section>
+    
+    <!--FOOTER-->
+    <footer>
+        <a href="#"><img src="/images/logo-heladeria.png" alt="logo"></a>    
+        
+        <p>Encuentranos en: 
+            <br> 
+            <b>Av.Lima 999-Cercado de Lima</b>
+            <br> 
+            Delivery: 
+            <br>
+            <b>+51 987654321</b> 
+            <br>Lunes a Sabado: <br> 10:00 a.m. a 6:00 p.m.
+        </p>
+    </footer>
+    
+</body>
+</html>
